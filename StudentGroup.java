@@ -56,20 +56,10 @@ catch(IllegalArgumentException e)
 		this.students[0]=student;
 
 	}
-		// Add your implementation here
-	}
+		// Add your implementation her
 
 	@Override
 	public void addLast(Student student) {
-	    try{
-if(student==null)
- 		  throw new IllegalArgumentException();
-}
-catch(IllegalArgumentException e)
-{}
-		int l=this.students.length;
-		this.students[l-1]=student;
-	}
 		// Add your implementation here
 	}
 
@@ -153,7 +143,8 @@ catch(IllegalArgumentException e)
 	public Student getNextStudent(Student student) {
 		// Add your implementation here
 		return null;
-	}
+
+}
 }
 
 
